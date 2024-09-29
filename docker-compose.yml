@@ -3,8 +3,21 @@ services:
     db:
         image: "mcr.microsoft.com/mssql/server"
         environment:
-
             SA_PASSWORD: "Your_password123"
             ACCEPT_EULA: "Y"
         ports:
             - 1433:1433
+        networks:
+            - dw_network
+
+    pyspark:
+        build: .
+        volumes:
+            - .:/pyspark
+        depends_on:
+            - db
+        networks:
+            - dw_network
+
+networks:
+    dw_network:
