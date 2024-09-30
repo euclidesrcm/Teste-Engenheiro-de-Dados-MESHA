@@ -34,3 +34,5 @@ Critérios avaliadas:
 6. Qual a média por disciplina?
 7. Qual a média por Sexo?
 8. Qual a média por Etnia?
+
+
