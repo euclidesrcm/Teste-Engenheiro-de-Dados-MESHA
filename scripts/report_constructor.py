@@ -247,6 +247,11 @@ SELECT
 	'Matemática' AS "Matéria",
 	AVG(nu_nota_mt) AS "Média"
 FROM dw_enem_2020.ft_notas
+UNION
+SELECT
+	'Redação' AS "Matéria",
+	AVG(nu_nota_redacao) AS "Média"
+FROM dw_enem_2020.ft_notas
 '''
     result = run_query(query)
     
