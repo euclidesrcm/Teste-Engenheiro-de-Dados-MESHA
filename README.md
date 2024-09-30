@@ -71,3 +71,7 @@ Ao subir os containers do banco de dados SQL Server e também o construído atra
 
 
 ## Considerações
+- Para calcular a média por escolas, foi considerado as categorias pública, privada, exterior e não respondeu;
+- As médias foram calculadas somando as notas de todas as provas e dividindo a soma por 5. Se o aluno faltou a uma prova em específico, o valor da nota foi considerado como 0 para fins do cálculo da média. Se o aluno faltou em todas as provas, não foi calculado a média e o registro não foi incluído na tabela ft_notas;
+- Foi considerado como candidato ausente aquele que faltou nas 4 provas (não foi usado a prova de redação como parâmetro porque não havia um atributo de presença específico para essa prova. Mas, como a redação foi realizada no mesmo dia que outras provas, quem faltou em todas as outras também faltou na redação);
+- Médias formatadas com 1 casa decimal e sem arredondamento. Porcentagens formatadas com 2 casas decimais e sem arredondamentos.
