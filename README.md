@@ -41,7 +41,7 @@ Ao subir os containers do banco de dados SQL Server e também o construído atra
 
 
 
-### Como executar
+## Como executar
 
 1. Fazer download do arquivo de Microdados [clicando aqui](https://download.inep.gov.br/microdados/microdados_enem_2020.zip);
 2. Descompactar a pasta dos microdados e copiar o arquivo no diretório microdados_enem_2020/DADOS/MICRODADOS_ENEM_2020.csv para o diretório "data" do projeto;
