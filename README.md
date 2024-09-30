@@ -49,6 +49,7 @@ Ao subir os containers do banco de dados SQL Server e também o construído atra
 4. Descompactar a pasta do driver JDBC e copiar o arquivo sqljdbc_12.8/ptb/jars/mssql-jdbc-12.8.1.jre11.jar para o diretório "jars" do projeto;
 5. Em um ambiente com Docker configurado e em execução, abrir um terminal no diretório raiz do projeto (onde se encontra o arquivo docker-compose.yml);
 6. Executar o seguinte comando:
+   
    Para rodar o projeto em background:
    
    ```
