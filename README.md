@@ -62,5 +62,7 @@ Ao subir os containers do banco de dados SQL Server e também o construído atra
    docker compose up
    ```
 
+7. Após a execução bem sucedida, o relatório estará disponível no diretório "reports" do projeto.
+
 
 
